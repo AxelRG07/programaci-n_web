@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*------------------------------------------------------------*/
+/*estilos del nav*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: rgb(249, 208, 240);
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav form{
+    padding: 20px;
+}
+
+nav ul li{
+    margin: 0 15px;
+    padding: 20px;
+}
+
+/*---------------------------------------------------------------*/
+
+#carrusel{
+    height: 50vh;
+    text-align: center;
+    background-color: rgb(207, 206, 206);
+}
+
+/*---------------------------------------------------------------*/
+
+/* ESTILOS CATEGORIAS*/
+#categorias{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(249, 208, 240);
+}
+
+.menu-categorias{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.bienvenidos-categorias{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.img-bienvenidos{
+    width: auto;
+    margin-top: 10px;
+    height: 100px;
+    background-color: grey;
+}
+
+/*---------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------*/
+/*ESTILOS DESTACADAS*/
+#destacadas{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#contenedor-destacadas{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.img-destacadas{
+    width: 200px;
+    height: 100px;
+    background-color: grey;
+}
+/*---------------------------------------------------------------*/
+
+/*ESTILOS EXTRAS*/
+#otros{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 40px;
+    background-color: rgb(249, 208, 240);
+}
+
+.extras{
+    width: 20%;
+    padding: 40px;
+}
+
+.img-extras{
+    height: 20vh;
+    background-color: grey;
+    padding: 10px;
+}
+
+/*---------------------------------------------------------------*/
+
+/*FOOTER*/
+#nosotros{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.img-about{
+    width: 10%;
+    height: 20vh;
+    background-color: black;
+    border-radius: 100px;
+}
+
+.info-nosotros{
+    width: 40%;
+}
+
+#redes{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    background-color: rgb(249, 208, 240);
+    padding: 20px;
+}
+
+.icono-redes{
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+}
